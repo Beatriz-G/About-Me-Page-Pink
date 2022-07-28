@@ -109,6 +109,31 @@ body {
   height: 100%;
 }
 
+header {
+    background-color: rgba(255, 105, 180, 0.419);
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 80px;
+    color: white;
+}
+
+main, footer {
+    background-color: rgb(242, 175, 211);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.25em;
+    color:rgba(92, 25, 62, 0.516)
+}
+
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
@@ -130,7 +155,7 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 1px;
-  padding: 30px 30px;
+  padding: 20px 30px;
   text-align: center;
   margin-top: 20px; 
 }
@@ -142,8 +167,6 @@ body {
   margin-bottom: 40px;
   
 }
-
-
 
 /* ==========================================================================
    Helper classes
